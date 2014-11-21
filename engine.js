@@ -257,6 +257,7 @@ var gameboard = new Game_Board();
 var infos = new Game_Infos();
 var control = new Game_Control();
 var $cards, pairs, cards_arr;
+
 $(document).ready(function () {
    $.get('proxy.php', function(data){
 		gameboard.set_Data(data);
