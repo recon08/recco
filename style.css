@@ -1,0 +1,133 @@
+﻿#canv {
+	width:700px; height:556px;
+	margin:0 auto;
+	background-color:#353535;
+	padding:10px;
+}
+
+#game_board {
+	float:left;
+	width:553px; height:556px;
+	background-color:#F5F5F5;
+
+}
+
+#logo {
+	float:right;
+	width: 134px; height:70px;
+	background-image:url('img/logo.png');
+	background-size:160px 70px;
+	background-position:center;
+	
+}
+
+#game_info {
+	float:right;
+	width:124px; height:230px;
+	left:566px; top:100px;
+	background-color:#F5F5F5;
+	padding:5px;
+	margin:50px 0 148px 0;
+	border-radius:5px;
+	text-align:center;
+}
+#game_info p {
+	margin-top:12px;
+	margin-bottom:0px;
+	font-size:18px;
+}
+#game_info span {
+	margin:0 auto;
+	display:block;
+	font-size:35px;
+	text-align:center;
+}
+
+#restart {
+	float: right;
+	width: 134px;
+	height: 48px;
+	left: 566px;
+	font-size: 40px;
+	text-align: center;
+	border-radius:5px;
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+		
+}
+	
+
+.card_holder {
+	float:left;
+	width:124px; height:124px;
+	margin:6px 5px 5px 5px;
+	border:2px solid white;
+	border-radius:7px;
+	background-image:url('img/card_bg.gif');
+	background-size: 124px 168px;
+	-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.selected { 
+	background-image:none;
+	opacity: 1;
+	transform: rotateY(-180deg);
+	transform-style: preserve-3d;
+	-moz-transform: rotateY(-180eg);
+    -moz-transform-style: preserve-3d;
+	-webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+	-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+.active {
+	opacity: 0.4;
+}
+.opacity {
+	opacity:1;
+}
+.restart_active{
+	background-color:#F5F5F5;
+	
+}
+.popup {
+	display:none;
+   }
+#popup_msg {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 130px;
+	width:720px; height:250px;
+	z-index:1000;
+	background-color:#121212;
+	color:#FAFAFA;
+	text-align:center;
+	font-size:25px;
+	
+}
+#popup_bg {
+	width:100%;
+	height:700px;
+	width:99.9vw;
+	height:100vh;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:grey;
+	z-index:999;
+	background-image:url(' http://api.thumbr.it/whitenoise-361x370.png?background=99999900&noise=d1d1d1&density=43&opacity=53');
+	opacity:0.4;
+
+}
+
+}
